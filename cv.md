@@ -21,16 +21,16 @@
 
 1. Code example
 
-```javascript
-export const withSuspense = (Component) => {
-  return (props) => {
-    return (
-      <React.Suspense fallback={<Preloader />}>
-        <Component {...props} />
-      </React.Suspense>
-    );
-  };
-};
-```
+   ```javascript
+   export const withSuspense = (Component) => {
+     return (props) => {
+       return (
+         <React.Suspense fallback={<Preloader />}>
+           <Component {...props} />
+         </React.Suspense>
+       );
+     };
+   };
+   ```
 
 1. English level: B1
