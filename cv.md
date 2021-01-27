@@ -33,5 +33,4 @@ export const withSuspense = (Component) => {
 };
 ```
 
-1. English level:
-   - B1
+1. English level: B1
