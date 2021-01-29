@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Git & HTML & CSS</title>
+    <style>
+      .main {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1024px;
+      }
+    </style>
+  </head>
+  <body class="page">
+    <header></header>
+    <main class="main">
+      <article>
+        <h1>My CV</h1>
+        <img class="photo" src="photo.jpg" alt="Vladislav">
+        <section>
+          <h2>1. My fullname is Vladislav Ugarov</h2>
+          <h2>2. Contacts</h2>
+          <ul>
+            <li>Phone: +7 (931) 58-162-98</li>
+            <li>Email: <a href="mailto:vlad.ygarov@gmail.com">vlad.ygarov@gmail.com</a></li>
+          </ul>
+        </section>
+        <h2>3. About me:</h2>
+        <ul>
+            <li>I realized that changes are needed in my life, my current work does not give me pleasure, it takes my time and gives little in return.</li>
+            <li>My goal is to become a Front-end developer and find a job in this direction.</li>
+            <li>Every day I try to do something that will bring me closer to this goal.</li>
+            <ul>
+                <li>I am taking lessons in Puzzle English</li>
+                <li>I am watching a tutorial video on youtube about React</li>
+                <li>Now I'm trying to get into RS School to get experience and go to interviews, because I need a kick</li>
+            </ul>
+        </ul>
+        <h2>4. Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS(SCSS)</li>
+          <li>JS</li>
+          <li>Git & Github</li>
+          <li>Command Line</li>
+        </ul>
+        <h2>5. Code example:</h2>
+        <pre>
+            <xmp class="codetext">
+            export const withSuspense = (Component) => {
+                return (props) => {
+                return (
+                    <React.Suspense fallback={<Preloader />}>
+                    <Component {...props} />
+                    </React.Suspense>
+                );
+            };
+            </xmp>
+        </pre>
+        <h2>6. English level: B1</h2>
+       </article>
+    </main>
+    <footer></footer>
+  </body>
+</html>
