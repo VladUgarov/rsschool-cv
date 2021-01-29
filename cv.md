@@ -3,7 +3,7 @@
 1. My fullname is Vladislav Ugarov
 1. Contacts:
    - Phone: +7 (931) 58-162-98
-   - Email: Email: vlad.ygarov@gmail.com
+   - Email: vlad.ygarov@gmail.com
 1. About me:
    - I realized that changes are needed in my life, my current work does not give me pleasure, it takes my time and gives little in return.
    - My goal is to become a Front-end developer and find a job in this direction.
